@@ -81,6 +81,9 @@ function dimLayerShow(option){
 		if($modal.length===0){return;}
 		$modal.removeClass("active");
 		$target.addClass("active");
+		setTimeout(function(){
+			$target.addClass("motion");
+		},30);
 		
 		$page_wrap.css({"z-index":0});
 		$("body").append($target);
@@ -106,7 +109,10 @@ function dimLayerHide(option){
 		
 		$target = $(option.target);
 		if($modal.length===0){return;}
-		$target.removeClass("active");
+		$target.removeClass("motion");
+		setTimeout(function(){
+			$target.removeClass("active");
+		},400);
 		$(".page_wrap").css({"z-index":""});
 		$("html,body").removeClass("touchDis touchDis2");
 		scrollEnd();
