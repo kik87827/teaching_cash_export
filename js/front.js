@@ -125,6 +125,8 @@ function dimLayerHide(option){
 
 /* formCommon */
 function formCommon(){
+	var globalform = $("input[type='text'],input[type='password'],input[type='number'],textarea");
+	var $btn_botpos_wrap = $(".btn_botpos_wrap");
 	var $btn_select_call = $(".btn_select_call");
 	var $form_field = $(".form_field");
 	var $form_input = $("input.form_input");
@@ -140,6 +142,12 @@ function formCommon(){
 	// 	}
 	// });
 
+	globalform.on("focusin keydown keypress focus",function(){
+		$btn_botpos_wrap.addClass("postype2");
+	});
+	globalform.on("focusout",function(){
+		$btn_botpos_wrap.removeClass("postype2");
+	});
 
 
 	$form_input.on("focusin keydown keypress",function(){
@@ -171,10 +179,9 @@ function formCommon(){
 			$this.removeClass("has_value");
 		}
 	});
-	$field_multi_form_input.on("focusin keydown keypress focusout",function(){
+	$field_multi_form_input.on("focus focusin keydown keypress focusout",function(){
 		var $this = $(this);
 		var $t_p = $this.parents(".d_field");
-		
 		if($this[0].value.length){
 			$t_p.addClass("has_value");
 		}else{
