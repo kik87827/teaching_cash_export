@@ -127,7 +127,10 @@ function dimLayerHide(option){
 function formCommon(){
 	var $btn_select_call = $(".btn_select_call");
 	var $form_field = $(".form_field");
-	var $form_input = $(" input.form_input");
+	var $form_input = $("input.form_input");
+	var $field_multi_d_field = $(".field_multi_fxwrap.d_field");
+	var $field_multi_form_input = $field_multi_d_field.children("input.form_input");
+	var $field_multi_reset = $field_multi_d_field.children(".btn_fieldreset");
 	// $form_input.each(function(){
 	// 	var $this = $(this);
 	// 	var $t_p = $this.parents(".form_field");
@@ -136,6 +139,9 @@ function formCommon(){
 	// 		$t_p.addClass("active");
 	// 	}
 	// });
+
+
+
 	$form_input.on("focusin keydown keypress",function(){
 		var $this = $(this);
 		var $t_p = $this.parents(".form_field");
@@ -153,6 +159,36 @@ function formCommon(){
 			$t_p.removeClass("active");
 		}
 	});
+
+	
+	$field_multi_d_field.each(function(){
+		var $this = $(this),
+			$t_input = $this.children(".form_input");
+		
+		if($t_input[0].value.length>0){
+			$this.addClass("has_value");
+		}else{
+			$this.removeClass("has_value");
+		}
+	});
+	$field_multi_form_input.on("focusin keydown keypress focusout",function(){
+		var $this = $(this);
+		var $t_p = $this.parents(".d_field");
+		
+		if($this[0].value.length){
+			$t_p.addClass("has_value");
+		}else{
+			$t_p.removeClass("has_value");
+		}
+	});
+	$field_multi_reset.on("click",function(){
+		var $this = $(this);
+		var $t_p = $this.parents(".d_field");
+		var $t_input = $t_p.children(".form_input")
+		
+		$t_input.val("");
+	});
+
 	$btn_select_call.on("focusout",function(){
 		var $this = $(this);
 		$this.removeClass("active");
