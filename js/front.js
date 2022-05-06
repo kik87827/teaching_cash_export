@@ -225,12 +225,27 @@ function formCommon(){
 		$btn_target.addClass("active");
 		dimLayerHide({target : $t_p});
 	});
+<<<<<<< Updated upstream
 	$(document).on("focus focusin",".input_date",function(e){
+=======
+	$(document).on("change",".input_date",function(e){
+>>>>>>> Stashed changes
 		e.preventDefault();
 		var $this = $(this);
 		var $this_p = $this.parents(".select_date_item");
 		$this_p.addClass("active");
 	});
+<<<<<<< Updated upstream
+=======
+	$(document).on("focusin focus",".input_date",function(e){
+		e.preventDefault();
+		var $this = $(this);
+		var $this_p = $this.parents(".select_date_item");
+		if($("html").hasClass("win")){
+			$this_p.addClass("active");
+		}
+	});
+>>>>>>> Stashed changes
 	$(document).on("focusout",".input_date",function(e){
 		e.preventDefault();
 		var $this = $(this);
