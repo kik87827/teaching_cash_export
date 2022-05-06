@@ -139,6 +139,7 @@ function formCommon(){
 	var $field_multi_d_field = $(".field_multi_fxwrap.d_field");
 	var $field_multi_form_input = $field_multi_d_field.children("input.form_input");
 	var $field_multi_reset = $field_multi_d_field.children(".btn_fieldreset");
+	var $select_date_item = $(".select_date_item");
 	// $form_input.each(function(){
 	// 	var $this = $(this);
 	// 	var $t_p = $this.parents(".form_field");
@@ -223,5 +224,18 @@ function formCommon(){
 		$btn_target.children(".btn_select_call_in").text($this_text);
 		$btn_target.addClass("active");
 		dimLayerHide({target : $t_p});
-	})
+	});
+	$(document).on("focus focusin",".input_date",function(e){
+		e.preventDefault();
+		var $this = $(this);
+		var $this_p = $this.parents(".select_date_item");
+		$this_p.addClass("active");
+	});
+	$(document).on("focusout",".input_date",function(e){
+		e.preventDefault();
+		var $this = $(this);
+		var $this_p = $this.parents(".select_date_item");
+		if($this[0].value.length>0){return;}
+		$this_p.removeClass("active");
+	});
 }
