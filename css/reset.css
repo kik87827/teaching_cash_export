@@ -5,6 +5,11 @@
 	use: 공통스타일
 */
 @import url(webfont.css);
+* {
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
 html {
   font-size: 16px;
 }
