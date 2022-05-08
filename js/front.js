@@ -40,6 +40,25 @@ function commonResize(){
 	}).resize();
 }
 
+function tabFunc(){
+	var $d_tablist = $(".d_tablist");
+	var $dmid_tab = $(".dmid_tab");
+	$dmid_tab.on("click",function(e){
+		e.preventDefault();
+		var $t = $(this);
+		var $t_p = $t.parents(".d_tablist");
+		var $t_t_g = $($t_p.attr("data-targetgroup"));
+		var $t_t = $($t.attr("href"));
+		$t.siblings(".dmid_tab").not($t).removeClass("active");
+		$t.addClass("active");
+
+		if($t_t.length){
+			$t_t_g.children(".dmid_cont").hide();
+			$t_t.show();
+		}
+	});
+}
+
 
 function botlayerCall(){
     var $btn_botpos_wrap = $(".btn_botpos_wrap");
@@ -139,7 +158,7 @@ function dimLayerHide(option){
 function formCommon(){
 	var globalform = $("input[type='text'],input[type='password'],input[type='number'],textarea");
 	var $btn_botpos_wrap = $(".btn_botpos_wrap");
-	var $btn_select_call = $(".btn_select_call");
+	var $btn_select_call = $(".d_select");
 	var $form_field = $(".form_field");
 	var $form_input = $("input.form_input");
 	var $field_multi_d_field = $(".field_multi_fxwrap.d_field");
@@ -249,7 +268,7 @@ function formCommon(){
 		var $this_text = $this.text();
 		var $t_p = $this.parents(".dimlayer_z");
 		var $btn_target = $($t_p.attr("data-call"));
-		$btn_target.children(".btn_select_call_in").text($this_text);
+		$btn_target.children(".btn_select_call_in , .sonlytext_in").text($this_text);
 		$btn_target.addClass("active");
 		dimLayerHide({target : $t_p});
 	});
