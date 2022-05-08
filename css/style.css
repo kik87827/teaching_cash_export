@@ -2954,7 +2954,7 @@ input.input_date::-webkit-calendar-picker-indicator {
   margin-bottom: 0;
 }
 
-.win .sbox_fdata_cell {
+.sbox_fdata_cell {
   position: relative;
   top: 2px;
 }
@@ -2999,7 +2999,7 @@ input.input_date::-webkit-calendar-picker-indicator {
   border-right: 2px solid #838289;
   border-bottom: 2px solid #838289;
   position: absolute;
-  top: 0.0625rem;
+  top: 0;
   right: 0.125rem;
   width: 0.4375rem;
   height: 0.4375rem;
