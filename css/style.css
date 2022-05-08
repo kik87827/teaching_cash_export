@@ -5,25 +5,29 @@ html, body {
 }
 
 .front_body {
-<<<<<<< Updated upstream
-  min-width: 280px;
-=======
   min-width: 17.5rem;
->>>>>>> Stashed changes
 }
 
 .front_body.type2 {
   background: #fafaff;
 }
 
+.swiper-pagination .swiper-pagination-bullet {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #e0e0e5;
+  opacity: 1;
+  margin: 0 0.25rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #4144f2;
+}
+
 /* splash */
 .splash_body.first_page {
   background: #4144f2;
-<<<<<<< Updated upstream
-  max-width: 360px;
-=======
   max-width: 22.5rem;
->>>>>>> Stashed changes
   margin: 0 auto;
 }
 
@@ -47,22 +51,13 @@ html, body {
 }
 
 .swiper-container-splash-wrap {
-<<<<<<< Updated upstream
-  padding-bottom: 80px;
-=======
   padding-bottom: 5rem;
->>>>>>> Stashed changes
 }
 
 .swiper-splash-logo-low {
   text-align: center;
-<<<<<<< Updated upstream
-  margin: 54px auto 0;
-  max-width: 360px;
-=======
   margin: 3.375rem auto 0;
   max-width: 22.5rem;
->>>>>>> Stashed changes
 }
 
 .swiper-splash-logo-low img {
@@ -72,11 +67,7 @@ html, body {
 }
 
 .swiper_splash_imglow {
-<<<<<<< Updated upstream
-  margin: 92px auto 0;
-=======
   margin: 5.75rem auto 0;
->>>>>>> Stashed changes
   text-align: center;
   font-size: 0;
   line-height: 0;
@@ -87,19 +78,11 @@ html, body {
 }
 
 .swiper_splash_imglow.type2 {
-<<<<<<< Updated upstream
-  margin-top: 55px;
-}
-
-.swiper_splash_imglow.type3 {
-  margin-top: 99px;
-=======
   margin-top: 3.4375rem;
 }
 
 .swiper_splash_imglow.type3 {
   margin-top: 6.1875rem;
->>>>>>> Stashed changes
 }
 
 .swiper_splash_imglow > img {
@@ -109,18 +92,6 @@ html, body {
 .swiper_splash_speclow {
   text-align: center;
   color: #111111;
-<<<<<<< Updated upstream
-  margin-top: 38px;
-}
-
-.splash_spec01 {
-  font-size: 18px;
-}
-
-.splash_spec02 {
-  margin-top: 12px;
-  font-size: 24px;
-=======
   margin-top: 2.375rem;
 }
 
@@ -131,7 +102,6 @@ html, body {
 .splash_spec02 {
   margin-top: 0.75rem;
   font-size: 1.5rem;
->>>>>>> Stashed changes
   line-height: 1.08;
   font-weight: 700;
   font-family: "NEXON Lv2 Gothic Bold";
@@ -142,19 +112,11 @@ html, body {
 }
 
 .swiper_splash_btnlow {
-<<<<<<< Updated upstream
-  margin: 72px 24px 0;
-}
-
-.swiper_splash_btnlow .btn_quadbox {
-  margin-bottom: 16px;
-=======
   margin: 4.5rem 1.5rem 0;
 }
 
 .swiper_splash_btnlow .btn_quadbox {
   margin-bottom: 1rem;
->>>>>>> Stashed changes
 }
 
 .swiper_splash_btnlow .btn_quadbox:last-of-type {
@@ -162,24 +124,15 @@ html, body {
 }
 
 .btn_quadbox {
-<<<<<<< Updated upstream
-  font-size: 18px;
-=======
   font-size: 1.125rem;
->>>>>>> Stashed changes
   line-height: 1;
   display: block;
   width: 100%;
   color: #fff;
   font-family: "NEXON Lv2 Gothic Bold";
   text-align: center;
-<<<<<<< Updated upstream
-  padding: 16px 16px 15px;
-  border-radius: 8px;
-=======
   padding: 1rem 1rem 0.9375rem;
   border-radius: 0.5rem;
->>>>>>> Stashed changes
   border: 0.0625rem solid #4144f2;
   background: #4144f2;
   box-sizing: border-box;
@@ -192,11 +145,7 @@ html, body {
 
 .btn_quadbox.dtype3 {
   border-color: #c5c5d0;
-<<<<<<< Updated upstream
-  font-size: 16px;
-=======
   font-size: 1rem;
->>>>>>> Stashed changes
   color: #47474b;
   background: #fff;
 }
@@ -207,26 +156,16 @@ html, body {
 }
 
 .btn_quadbox.smtype2 {
-<<<<<<< Updated upstream
-  padding: 14px 12px 13px;
-  font-size: 14px;
-  border-radius: 8px;
-=======
   padding: 0.875rem 0.75rem 0.8125rem;
   font-size: 0.875rem;
   border-radius: 0.5rem;
->>>>>>> Stashed changes
   font-weight: bold;
   font-family: "NEXON Lv2 Gothic";
 }
 
 .swiper-pagination.splash-paging {
   position: fixed;
-<<<<<<< Updated upstream
-  bottom: 36px;
-=======
   bottom: 2.25rem;
->>>>>>> Stashed changes
   left: 0;
   width: 100%;
   font-size: 0;
@@ -234,19 +173,11 @@ html, body {
 }
 
 .swiper-pagination.splash-paging .swiper-pagination-bullet {
-<<<<<<< Updated upstream
-  width: 8px;
-  height: 8px;
-  background: #e0e0e5;
-  opacity: 1;
-  margin: 0 4px;
-=======
   width: 0.5rem;
   height: 0.5rem;
   background: #e0e0e5;
   opacity: 1;
   margin: 0 0.25rem;
->>>>>>> Stashed changes
 }
 
 .swiper-pagination.splash-paging .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -256,13 +187,8 @@ html, body {
 /* 완료 */
 .finish_logo {
   text-align: center;
-<<<<<<< Updated upstream
-  margin: 54px auto 0;
-  max-width: 360px;
-=======
   margin: 3.375rem auto 0;
   max-width: 22.5rem;
->>>>>>> Stashed changes
   text-align: center;
 }
 
@@ -273,11 +199,7 @@ html, body {
 }
 
 .finish_imgobj {
-<<<<<<< Updated upstream
-  margin: 74px 45px 30px;
-=======
   margin: 4.625rem 2.8125rem 1.875rem;
->>>>>>> Stashed changes
   text-align: center;
 }
 
@@ -287,24 +209,15 @@ html, body {
 }
 
 .finish_spec01 {
-<<<<<<< Updated upstream
-  font-size: 24px;
-=======
   font-size: 1.5rem;
->>>>>>> Stashed changes
   line-height: 1.08;
   font-weight: 700;
   font-family: "NEXON Lv2 Gothic Bold";
 }
 
 .finish_spec02 {
-<<<<<<< Updated upstream
-  font-size: 13px;
-  margin-top: 15px;
-=======
   font-size: 0.8125rem;
   margin-top: 0.9375rem;
->>>>>>> Stashed changes
 }
 
 /* common */
@@ -314,11 +227,7 @@ html, body {
   left: 0;
   width: 100%;
   z-index: 10;
-<<<<<<< Updated upstream
-  min-width: 280px;
-=======
   min-width: 17.5rem;
->>>>>>> Stashed changes
 }
 
 .btn_botpos_wrap.postype2 {
@@ -330,70 +239,39 @@ html, body {
 }
 
 .botpos_in {
-<<<<<<< Updated upstream
-  padding: 24px;
-}
-
-body ::-webkit-scrollbar {
-  width: 10px;
-=======
   padding: 1.5rem;
 }
 
 body ::-webkit-scrollbar {
   width: 0.625rem;
->>>>>>> Stashed changes
 }
 
 body ::-webkit-scrollbar-thumb {
   background-color: #ccc;
-<<<<<<< Updated upstream
-  border-radius: 10px;
-  background-clip: padding-box;
-  border: 2px solid transparent;
-=======
   border-radius: 0.625rem;
   background-clip: padding-box;
   border: 0.125rem solid transparent;
->>>>>>> Stashed changes
 }
 
 body ::-webkit-scrollbar-track {
   background-color: transparent;
-<<<<<<< Updated upstream
-  border-radius: 10px;
-  box-shadow: inset 0rem 0rem 5px transparent;
-}
-
-.page_header {
-  height: 55px;
-=======
   border-radius: 0.625rem;
   box-shadow: inset 0rem 0rem 0.3125rem transparent;
 }
 
 .page_header {
   height: 3.4375rem;
->>>>>>> Stashed changes
   display: flex;
   align-items: center;
   position: relative;
   justify-content: center;
   text-align: center;
-<<<<<<< Updated upstream
-  padding: 0 66px;
-=======
   padding: 0 4.125rem;
->>>>>>> Stashed changes
 }
 
 .page_header.type2 {
   height: auto;
-<<<<<<< Updated upstream
-  min-height: 55px;
-=======
   min-height: 3.4375rem;
->>>>>>> Stashed changes
   display: block;
   padding: 0;
   text-align: left;
@@ -405,20 +283,12 @@ body ::-webkit-scrollbar-track {
   display: block;
   content: "";
   width: 100%;
-<<<<<<< Updated upstream
-  height: calc(100% + 52px);
-=======
   height: calc(100% + 3.25rem);
->>>>>>> Stashed changes
   background: #4144f2;
   position: absolute;
   top: 0;
   left: 0;
-<<<<<<< Updated upstream
-  border-radius: 0 0 14px 14px;
-=======
   border-radius: 0 0 0.875rem 0.875rem;
->>>>>>> Stashed changes
 }
 
 .page_header.type2 > * {
@@ -438,15 +308,6 @@ body ::-webkit-scrollbar-track {
   position: absolute;
   top: 0;
   left: 0;
-<<<<<<< Updated upstream
-  width: 66px;
-  height: 55px;
-  background: url("../images/ico_back.png") no-repeat 50% 50%/20.5008px auto;
-}
-
-.page_headtitle {
-  font-size: 18px;
-=======
   width: 4.125rem;
   height: 3.4375rem;
   background: url("../images/ico_back.png") no-repeat 50% 50%/1.2813rem auto;
@@ -454,26 +315,17 @@ body ::-webkit-scrollbar-track {
 
 .page_headtitle {
   font-size: 1.125rem;
->>>>>>> Stashed changes
   line-height: 1;
   font-weight: bold;
   color: #000;
 }
 
 .page_midsection {
-<<<<<<< Updated upstream
-  padding: 35px 24px 80px;
-}
-
-.page_midsection.dtype2 {
-  padding-top: 20px;
-=======
   padding: 2.1875rem 1.5rem 5rem;
 }
 
 .page_midsection.dtype2 {
   padding-top: 1.25rem;
->>>>>>> Stashed changes
 }
 
 .page_midsection.dtype3 {
@@ -481,26 +333,15 @@ body ::-webkit-scrollbar-track {
 }
 
 .page_midsection.dtype4 {
-<<<<<<< Updated upstream
-  padding-top: 25px;
-}
-
-.page_midsection.dtype5 {
-  padding: 25px 0 0 0;
-}
-
-.head_dtitle_inwrap {
-  padding: 30px 26px;
-}
-
-.head_dtitle {
-  font-size: 26px;
-=======
   padding-top: 1.5625rem;
 }
 
 .page_midsection.dtype5 {
   padding: 1.5625rem 0 0 0;
+}
+
+.page_midsection.dtype6 {
+  padding: 0;
 }
 
 .head_dtitle_inwrap {
@@ -509,7 +350,6 @@ body ::-webkit-scrollbar-track {
 
 .head_dtitle {
   font-size: 1.625rem;
->>>>>>> Stashed changes
   color: #fff;
 }
 
@@ -529,11 +369,7 @@ body ::-webkit-scrollbar-track {
   position: fixed;
   top: 0;
   left: 0;
-<<<<<<< Updated upstream
-  min-width: 280px;
-=======
   min-width: 17.5rem;
->>>>>>> Stashed changes
   overflow: hidden;
   overflow-y: auto;
   width: 100%;
@@ -580,11 +416,7 @@ body ::-webkit-scrollbar-track {
 .botpos_vlayer {
   background: #fff;
   width: 100%;
-<<<<<<< Updated upstream
-  border-radius: 12px 12px 0 0;
-=======
   border-radius: 0.75rem 0.75rem 0 0;
->>>>>>> Stashed changes
   transform: translateY(100%);
   transition: 0.4s;
   position: relative;
@@ -592,29 +424,17 @@ body ::-webkit-scrollbar-track {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-<<<<<<< Updated upstream
-  max-height: calc(100% - 55px);
-}
-
-.botpos_vtitlow {
-  padding: 26px 60px 26px 24px;
-=======
   max-height: calc(100% - 3.4375rem);
   overflow-y: auto;
 }
 
 .botpos_vtitlow {
   padding: 1.625rem 3.75rem 1.625rem 1.5rem;
->>>>>>> Stashed changes
   flex: 0;
 }
 
 .botpos_vtit {
-<<<<<<< Updated upstream
-  font-size: 18px;
-=======
   font-size: 1.125rem;
->>>>>>> Stashed changes
   line-height: 1;
   font-family: "NEXON Lv2 Gothic Bold";
   color: #000;
@@ -624,11 +444,7 @@ body ::-webkit-scrollbar-track {
   position: relative;
   overflow: hidden;
   overflow-y: auto;
-<<<<<<< Updated upstream
-  padding: 0 24px 26px;
-=======
   padding: 0 1.5rem 1.625rem;
->>>>>>> Stashed changes
   flex: 1;
 }
 
@@ -638,84 +454,48 @@ body ::-webkit-scrollbar-track {
 
 .form_option {
   display: block;
-<<<<<<< Updated upstream
-  font-size: 16px;
-  color: #111;
-  font-weight: bold;
-  padding: 15px 0;
-=======
   font-size: 1rem;
   color: #111;
   font-weight: bold;
   padding: 0.9375rem 0;
->>>>>>> Stashed changes
 }
 
 .modal_layerbox_w {
   background: #fff;
-<<<<<<< Updated upstream
-  border-radius: 12px;
-=======
   border-radius: 0.75rem;
->>>>>>> Stashed changes
   z-index: 15;
   position: relative;
   width: 100%;
   box-sizing: border-box;
-<<<<<<< Updated upstream
-  padding: 20px;
-  margin: 20px;
-=======
   padding: 1.25rem;
   margin: 1.25rem;
->>>>>>> Stashed changes
   transition: 0.4s;
   opacity: 0;
 }
 
 .modal_message {
-<<<<<<< Updated upstream
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 1.4;
-  padding: 25px 20px 40px;
-=======
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
   line-height: 1.4;
   padding: 1.5625rem 1.25rem 2.5rem;
->>>>>>> Stashed changes
   color: #111;
 }
 
 .btn_modalcell_fxwrap {
   display: flex;
-<<<<<<< Updated upstream
-  margin: 0 -6px;
-=======
   margin: 0 -0.375rem;
->>>>>>> Stashed changes
 }
 
 .btn_modalcell {
   flex: 1;
   display: flex;
   align-items: center;
-<<<<<<< Updated upstream
-  padding: 0 6px;
-}
-
-.btn_modalcell .btn_quadbox {
-  padding: 12px 12px 11px;
-=======
   padding: 0 0.375rem;
 }
 
 .btn_modalcell .btn_quadbox {
   padding: 0.75rem 0.75rem 0.6875rem;
->>>>>>> Stashed changes
   width: 100%;
 }
 
@@ -725,43 +505,26 @@ body ::-webkit-scrollbar-track {
 
 .btn_botpos_close {
   display: block;
-<<<<<<< Updated upstream
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 14px;
-  right: 10px;
-=======
   width: 2.5rem;
   height: 2.5rem;
   position: absolute;
   top: 0.875rem;
-  right: 0.625rem;
->>>>>>> Stashed changes
+  right: 1rem;
   font-size: 0;
   line-height: 0;
 }
 
 .btn_botpos_close:before,
 .btn_botpos_close:after {
-<<<<<<< Updated upstream
-  width: 20px;
-  height: 2px;
-=======
   width: 1.25rem;
   height: 0.125rem;
->>>>>>> Stashed changes
   display: block;
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   background: #000;
-<<<<<<< Updated upstream
-  margin: -1px 0 0 -10px;
-=======
   margin: -0.0625rem 0 0 -0.625rem;
->>>>>>> Stashed changes
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -780,11 +543,10 @@ body ::-webkit-scrollbar-track {
   -webkit-transform: rotate(-45deg);
 }
 
-<<<<<<< Updated upstream
-@media (min-width: 64rem) {
-  .modal_layerbox_w {
-    max-width: 320px;
-=======
+.botpos_vcontonly.dtype2 {
+  padding: 2.5rem 0 0 0;
+}
+
 .bvconfirm_item {
   padding-top: 2.9375rem;
 }
@@ -844,6 +606,10 @@ body ::-webkit-scrollbar-track {
   margin-top: 5.75rem;
 }
 
+.btn_botpos_fxwrap.type3 {
+  margin-top: 2.0625rem;
+}
+
 .bvwarn_w {
   margin-top: 5rem;
 }
@@ -870,17 +636,12 @@ body ::-webkit-scrollbar-track {
 @media (min-width: 64rem) {
   .modal_layerbox_w {
     max-width: 20rem;
->>>>>>> Stashed changes
     margin: 0 auto;
   }
 }
 /* form */
 .form_veritem {
-<<<<<<< Updated upstream
-  margin-bottom: 36px;
-=======
   margin-bottom: 2.25rem;
->>>>>>> Stashed changes
 }
 
 .form_veritem:last-of-type {
@@ -888,11 +649,7 @@ body ::-webkit-scrollbar-track {
 }
 
 .form_verlabel {
-<<<<<<< Updated upstream
-  font-size: 12px;
-=======
   font-size: 0.75rem;
->>>>>>> Stashed changes
   line-height: 1;
   color: #111;
 }
@@ -919,19 +676,11 @@ body ::-webkit-scrollbar-track {
 
 input.form_input {
   border: 0;
-<<<<<<< Updated upstream
-  height: 42px;
-  color: #111;
-  font-weight: bold;
-  line-height: 1;
-  font-size: 16px;
-=======
   height: 2.625rem;
   color: #111;
   font-weight: bold;
   line-height: 1;
   font-size: 1rem;
->>>>>>> Stashed changes
   box-sizing: border-box;
   width: 100%;
   padding: 0;
@@ -951,11 +700,7 @@ input.form_input {
 }
 
 .form_incell_long.etri_text > .form_field {
-<<<<<<< Updated upstream
-  flex: 0 0 45px;
-=======
   flex: 0 0 2.8125rem;
->>>>>>> Stashed changes
 }
 
 .form_incell_long.etri_text > .form_field input.form_input {
@@ -969,29 +714,17 @@ input.form_input {
 .form_inelse {
   display: inline-block;
   white-space: nowrap;
-<<<<<<< Updated upstream
-  font-size: 16px;
-  color: #c5c5d0;
-  padding: 0 10px;
-=======
   font-size: 1rem;
   color: #c5c5d0;
   padding: 0 0.625rem;
->>>>>>> Stashed changes
 }
 
 .form_etri_text_w {
   flex: 1;
   display: flex;
-<<<<<<< Updated upstream
-  height: 42px;
-  align-items: center;
-  margin-left: 5px;
-=======
   height: 2.625rem;
   align-items: center;
   margin-left: 0.3125rem;
->>>>>>> Stashed changes
 }
 
 .form_etri_text {
@@ -1002,13 +735,8 @@ input.form_input {
 .form_etri_text:after {
   display: block;
   content: "";
-<<<<<<< Updated upstream
-  width: 8px;
-  height: 8px;
-=======
   width: 0.5rem;
   height: 0.5rem;
->>>>>>> Stashed changes
   margin: 0 auto;
   background: #111;
   border-radius: 100%;
@@ -1021,34 +749,20 @@ input.form_input {
   width: 100%;
   position: relative;
   box-sizing: border-box;
-<<<<<<< Updated upstream
-  height: 42px;
-=======
   height: 2.625rem;
->>>>>>> Stashed changes
 }
 
 .btn_select_call:after {
   display: block;
   content: "";
-<<<<<<< Updated upstream
-  width: 8px;
-  height: 8px;
-=======
   width: 0.5rem;
   height: 0.5rem;
->>>>>>> Stashed changes
   border-right: 2px solid #838289;
   border-bottom: 2px solid #838289;
   position: absolute;
   top: 50%;
-<<<<<<< Updated upstream
-  right: 7px;
-  margin-top: -5px;
-=======
   right: 0.4375rem;
   margin-top: -0.3125rem;
->>>>>>> Stashed changes
   transform: translateZ(0);
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -1056,11 +770,7 @@ input.form_input {
 }
 
 .btn_select_call_in {
-<<<<<<< Updated upstream
-  font-size: 16px;
-=======
   font-size: 1rem;
->>>>>>> Stashed changes
   color: #b4b6be;
   font-weight: bold;
 }
@@ -1070,23 +780,6 @@ input.form_input {
 }
 
 .btn_select_call.dtype2 {
-<<<<<<< Updated upstream
-  border-radius: 8px;
-  border: 0.0625rem solid #e0e0e5;
-  height: 44px;
-  padding: 0 40px 0 20px;
-}
-
-.btn_select_call.dtype2:after {
-  right: 20px;
-  margin-top: -5px;
-  width: 6px;
-  height: 6px;
-}
-
-.btn_select_call.dtype2 .btn_select_call_in {
-  font-size: 14px;
-=======
   border-radius: 0.5rem;
   border: 0.0625rem solid #e0e0e5;
   height: 2.75rem;
@@ -1102,7 +795,6 @@ input.form_input {
 
 .btn_select_call.dtype2 .btn_select_call_in {
   font-size: 0.875rem;
->>>>>>> Stashed changes
   font-weight: 400;
 }
 
@@ -1132,11 +824,7 @@ input.form_input {
 }
 
 .field_multi_fxwrap.d_field input.form_input {
-<<<<<<< Updated upstream
-  font-size: 18px;
-=======
   font-size: 1.125rem;
->>>>>>> Stashed changes
 }
 
 .field_multi_fxwrap.d_field.has_value .btn_fieldreset {
@@ -1145,11 +833,7 @@ input.form_input {
 
 .multi_short {
   flex: 0;
-<<<<<<< Updated upstream
-  margin: 0 12px;
-=======
   margin: 0 0.75rem;
->>>>>>> Stashed changes
 }
 
 .multi_short:last-of-type {
@@ -1160,16 +844,6 @@ input.form_input {
   display: inline-block;
   white-space: nowrap;
   border: 0.0625rem solid #c5c5d0;
-<<<<<<< Updated upstream
-  border-radius: 8px;
-  padding: 8px 15px 7px;
-  font-size: 13px;
-  color: #b4b6be;
-  min-width: 70px;
-  text-align: center;
-  position: relative;
-  top: -5px;
-=======
   border-radius: 0.5rem;
   padding: 0.5rem 0.9375rem 0.4375rem;
   font-size: 0.8125rem;
@@ -1178,7 +852,6 @@ input.form_input {
   text-align: center;
   position: relative;
   top: -0.3125rem;
->>>>>>> Stashed changes
 }
 
 .btn_formsm.dtype2 {
@@ -1187,41 +860,24 @@ input.form_input {
 }
 
 .form_emptext {
-<<<<<<< Updated upstream
-  font-size: 16px;
-=======
   font-size: 1rem;
->>>>>>> Stashed changes
   color: #4144f2;
   font-weight: bold;
 }
 
 .btn_fieldsearch {
   display: inline-block;
-<<<<<<< Updated upstream
-  width: 18px;
-  height: 18px;
-=======
   width: 1.125rem;
   height: 1.125rem;
->>>>>>> Stashed changes
   background: url("../images/ico_search.png") no-repeat 0 0/100% auto;
 }
 
 .btn_fieldsearch.multi_short {
-<<<<<<< Updated upstream
-  flex: 0 0 18px;
-}
-
-.form_funit {
-  font-size: 16px;
-=======
   flex: 0 0 1.125rem;
 }
 
 .form_funit {
   font-size: 1rem;
->>>>>>> Stashed changes
   color: #838289;
   line-height: 1;
   font-weight: bold;
@@ -1241,13 +897,8 @@ input[type=checkbox].chkrd {
   -ms-appearance: none;
   vertical-align: middle;
   background: url("../images/ico_check.png") no-repeat 50% 0/100% auto;
-<<<<<<< Updated upstream
-  width: 24px;
-  height: 24px;
-=======
   width: 1.5rem;
   height: 1.5rem;
->>>>>>> Stashed changes
   border-radius: 100%;
   border: 0.125rem solid #adadad;
   flex: 0 0 24px;
@@ -1257,28 +908,16 @@ input[type=checkbox].chkrd {
 input[type=checkbox].chkrd:checked {
   border-color: #4144f2;
   background-color: #4144f2;
-<<<<<<< Updated upstream
-  background-position: 0 -20px;
-}
-
-.chkrd_label {
-  font-size: 16px;
-=======
   background-position: 0 -1.25rem;
 }
 
 .chkrd_label {
   font-size: 1rem;
->>>>>>> Stashed changes
   color: #111111;
   font-weight: bold;
   display: inline-block;
   line-height: 1.3;
-<<<<<<< Updated upstream
-  margin: 2px 0 0 8px;
-=======
   margin: 0.125rem 0 0 0.5rem;
->>>>>>> Stashed changes
   vertical-align: middle;
   cursor: pointer;
 }
@@ -1290,13 +929,8 @@ input[type=checkbox].chkrd:checked {
 }
 
 .chkrd_sm_label {
-<<<<<<< Updated upstream
-  margin-left: 18px;
-  font-size: 14px;
-=======
   margin-left: 1.125rem;
   font-size: 0.875rem;
->>>>>>> Stashed changes
   color: #838289;
   font-weight: bold;
   line-height: 1;
@@ -1309,23 +943,6 @@ input.chkrd_sm {
   -ms-appearance: none;
   vertical-align: middle;
   background: url("../images/ico2_check.png") no-repeat 50% 0/100% auto;
-<<<<<<< Updated upstream
-  width: 14.5008px;
-  height: 10.5008px;
-  vertical-align: middle;
-  flex: 0 0 14.5008px;
-  position: relative;
-  top: 2px;
-}
-
-input.chkrd_sm:checked {
-  background-position: 0 -10.5008px;
-}
-
-.agree_chk_low {
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-=======
   width: 0.9063rem;
   height: 0.6563rem;
   vertical-align: middle;
@@ -1341,7 +958,6 @@ input.chkrd_sm:checked {
 .agree_chk_low {
   padding-bottom: 1.875rem;
   margin-bottom: 1.875rem;
->>>>>>> Stashed changes
   border-bottom: 0.0625rem solid #efefef;
 }
 
@@ -1351,27 +967,12 @@ input.chkrd_sm:checked {
 }
 
 .agree_chkcopy {
-<<<<<<< Updated upstream
-  font-size: 12px;
-=======
   font-size: 0.75rem;
->>>>>>> Stashed changes
   color: #838289;
   line-height: 1.5;
 }
 
 .agree_sigchk_low .chkrd_item .chkrd_label {
-<<<<<<< Updated upstream
-  margin-left: 15px;
-}
-
-.agree_subchk_low_zone {
-  margin-top: 35px;
-}
-
-.agree_subchk_low {
-  margin-bottom: 20px;
-=======
   margin-left: 0.9375rem;
 }
 
@@ -1381,25 +982,16 @@ input.chkrd_sm:checked {
 
 .agree_subchk_low {
   margin-bottom: 1.25rem;
->>>>>>> Stashed changes
   display: flex;
   justify-content: space-between;
 }
 
 .agree_subchk_low .chkrd_sm_item {
-<<<<<<< Updated upstream
-  padding-left: 5px;
-}
-
-.agree_subchk_low .chkrd_sm_item .chkrd_label {
-  margin-left: 20px;
-=======
   padding-left: 0.3125rem;
 }
 
 .agree_subchk_low .chkrd_sm_item .chkrd_label {
   margin-left: 1.25rem;
->>>>>>> Stashed changes
 }
 
 .agree_subchk_low:last-of-type {
@@ -1408,31 +1000,15 @@ input.chkrd_sm:checked {
 
 .btn_allow_ico {
   display: inline-block;
-<<<<<<< Updated upstream
-  width: 16px;
-  height: 16px;
-  position: relative;
-  left: 4px;
-=======
   width: 1rem;
   height: 1rem;
   position: relative;
   left: 0.25rem;
->>>>>>> Stashed changes
 }
 
 .btn_allow_ico:after {
   display: block;
   content: "";
-<<<<<<< Updated upstream
-  width: 7px;
-  height: 7px;
-  border-right: 0.125rem solid #b4b6be;
-  border-bottom: 0.125rem solid #b4b6be;
-  position: absolute;
-  top: 3px;
-  right: 5px;
-=======
   width: 0.4375rem;
   height: 0.4375rem;
   border-right: 0.125rem solid #b4b6be;
@@ -1440,7 +1016,6 @@ input.chkrd_sm:checked {
   position: absolute;
   top: 0.1875rem;
   right: 0.3125rem;
->>>>>>> Stashed changes
   transform: translateZ(0);
   transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
@@ -1448,19 +1023,11 @@ input.chkrd_sm:checked {
 }
 
 .form_copy_z {
-<<<<<<< Updated upstream
-  margin-bottom: 40px;
-}
-
-.sig_form_copy {
-  font-size: 22px;
-=======
   margin-bottom: 2.5rem;
 }
 
 .sig_form_copy {
   font-size: 1.375rem;
->>>>>>> Stashed changes
   color: #111;
   font-weight: bold;
   line-height: 1.3;
@@ -1471,15 +1038,6 @@ input.chkrd_sm:checked {
 }
 
 .sub_form_copy {
-<<<<<<< Updated upstream
-  font-size: 12px;
-  color: #838289;
-  margin-top: 13px;
-}
-
-.btn_fieldreset.multi_short {
-  flex: 0 0 18px;
-=======
   font-size: 0.75rem;
   color: #838289;
   margin-top: 0.8125rem;
@@ -1487,18 +1045,12 @@ input.chkrd_sm:checked {
 
 .btn_fieldreset.multi_short {
   flex: 0 0 1.125rem;
->>>>>>> Stashed changes
 }
 
 .btn_fieldreset {
   display: inline-block;
-<<<<<<< Updated upstream
-  width: 18px;
-  height: 18px;
-=======
   width: 1.125rem;
   height: 1.125rem;
->>>>>>> Stashed changes
   font-size: 0;
   line-height: 0;
   position: relative;
@@ -1506,11 +1058,7 @@ input.chkrd_sm:checked {
 
 .btn_fieldreset:before,
 .btn_fieldreset:after {
-<<<<<<< Updated upstream
-  width: 18px;
-=======
   width: 1.125rem;
->>>>>>> Stashed changes
   height: 1px;
   display: block;
   content: "";
@@ -1518,11 +1066,7 @@ input.chkrd_sm:checked {
   top: 50%;
   left: 50%;
   background: #828689;
-<<<<<<< Updated upstream
-  margin: -0.5008px 0 0 -9px;
-=======
   margin: -0.0313rem 0 0 -0.5625rem;
->>>>>>> Stashed changes
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -1542,27 +1086,11 @@ input.chkrd_sm:checked {
 }
 
 .form_autoguide_zone {
-<<<<<<< Updated upstream
-  margin-top: 20px;
-=======
   margin-top: 1.25rem;
->>>>>>> Stashed changes
 }
 
 .form_autoguide_box {
   background: #4144f2;
-<<<<<<< Updated upstream
-  border-radius: 8px;
-  text-align: center;
-  padding: 10px;
-}
-
-.form_autoguide_boxin {
-  font-size: 14px;
-  color: #fff;
-  position: relative;
-  padding-right: 20px;
-=======
   border-radius: 0.5rem;
   text-align: center;
   padding: 0.625rem;
@@ -1573,27 +1101,17 @@ input.chkrd_sm:checked {
   color: #fff;
   position: relative;
   padding-right: 1.25rem;
->>>>>>> Stashed changes
 }
 
 .form_autoguide_boxin:after {
   display: block;
   content: "";
-<<<<<<< Updated upstream
-  width: 7px;
-  height: 7px;
-  border-right: 0.125rem solid #fff;
-  border-bottom: 0.125rem solid #fff;
-  position: absolute;
-  top: 3px;
-=======
   width: 0.4375rem;
   height: 0.4375rem;
   border-right: 0.125rem solid #fff;
   border-bottom: 0.125rem solid #fff;
   position: absolute;
   top: 0.1875rem;
->>>>>>> Stashed changes
   right: 0;
   transform: translateZ(0);
   transform: rotate(-45deg);
@@ -1602,17 +1120,6 @@ input.chkrd_sm:checked {
 }
 
 .autoguide_vlist {
-<<<<<<< Updated upstream
-  margin-top: 30px;
-}
-
-.autoguide_vlist > li {
-  margin-bottom: 34px;
-}
-
-.autoguide_vlist > li.nodata_li {
-  margin: 128px 0 0 0;
-=======
   margin-top: 1.875rem;
 }
 
@@ -1622,20 +1129,14 @@ input.chkrd_sm:checked {
 
 .autoguide_vlist > li.nodata_li {
   margin: 8rem 0 0 0;
->>>>>>> Stashed changes
   text-align: center;
 }
 
 .nodata_searchitem::before {
   display: block;
   content: "";
-<<<<<<< Updated upstream
-  width: 91px;
-  height: 91px;
-=======
   width: 5.6875rem;
   height: 5.6875rem;
->>>>>>> Stashed changes
   background: url("../images/ico_nodata.png") no-repeat 50% 50%/100% auto;
   margin: 0 auto;
 }
@@ -1644,11 +1145,7 @@ input.chkrd_sm:checked {
   font-size: 0.875rem;
   color: #838289;
   line-height: 1.3;
-<<<<<<< Updated upstream
-  margin-top: 36px;
-=======
   margin-top: 2.25rem;
->>>>>>> Stashed changes
   font-weight: bold;
 }
 
@@ -1661,39 +1158,19 @@ vtform_list .autoguide_vitem {
 }
 
 .autogide_vtitle {
-<<<<<<< Updated upstream
-  font-size: 16px;
-=======
   font-size: 1rem;
->>>>>>> Stashed changes
   color: #111;
   font-weight: bold;
 }
 
 .autogide_vsub {
-<<<<<<< Updated upstream
-  font-size: 13px;
-  color: #838289;
-  margin-top: 8px;
-=======
   font-size: 0.8125rem;
   color: #838289;
   margin-top: 0.5rem;
->>>>>>> Stashed changes
 }
 
 .autogide_vsub2 {
   color: #7f81f2;
-<<<<<<< Updated upstream
-  font-size: 14px;
-  line-height: 1;
-  margin-top: 8px;
-}
-
-.vtform_list.dtype2 .vtform_low {
-  margin-bottom: 28px;
-  padding-bottom: 28px;
-=======
   font-size: 0.875rem;
   line-height: 1;
   margin-top: 0.5rem;
@@ -1702,7 +1179,6 @@ vtform_list .autoguide_vitem {
 .vtform_list.dtype2 .vtform_low {
   margin-bottom: 1.75rem;
   padding-bottom: 1.75rem;
->>>>>>> Stashed changes
   border-bottom: 0.0625rem solid #efefef;
 }
 
@@ -1713,11 +1189,7 @@ vtform_list .autoguide_vitem {
 }
 
 .vtform_low {
-<<<<<<< Updated upstream
-  margin-bottom: 30px;
-=======
   margin-bottom: 1.875rem;
->>>>>>> Stashed changes
 }
 
 .vtform_low:last-of-type {
@@ -1725,19 +1197,11 @@ vtform_list .autoguide_vitem {
 }
 
 .vtform_titlow {
-<<<<<<< Updated upstream
-  margin-bottom: 16px;
-}
-
-.vtform_tit {
-  font-size: 16px;
-=======
   margin-bottom: 1rem;
 }
 
 .vtform_tit {
   font-size: 1rem;
->>>>>>> Stashed changes
   line-height: 1;
   font-weight: bold;
   color: #111;
@@ -1746,11 +1210,7 @@ vtform_list .autoguide_vitem {
 .cbox_formitem_w {
   display: flex;
   flex-wrap: wrap;
-<<<<<<< Updated upstream
-  margin: -5px;
-=======
   margin: -0.3125rem;
->>>>>>> Stashed changes
 }
 
 .cbox_formitem {
@@ -1759,11 +1219,7 @@ vtform_list .autoguide_vitem {
   flex: 0 0 33.3333333333%;
   text-align: center;
   box-sizing: border-box;
-<<<<<<< Updated upstream
-  padding: 5px;
-=======
   padding: 0.3125rem;
->>>>>>> Stashed changes
 }
 
 .cbox_formitem_w.wtype2 .cbox_formitem {
@@ -1789,24 +1245,14 @@ input.cbox_input {
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< Updated upstream
-  font-size: 14px;
-=======
   font-size: 0.875rem;
->>>>>>> Stashed changes
   color: #111;
   box-sizing: border-box;
   height: 100%;
   border: 0.0625rem solid #e0e0e5;
-<<<<<<< Updated upstream
-  border-radius: 30px;
-  line-height: 1.3;
-  padding: 17px 17px 16px;
-=======
   border-radius: 1.875rem;
   line-height: 1.3;
   padding: 1.0625rem 1.0625rem 1rem;
->>>>>>> Stashed changes
 }
 
 input.cbox_input:checked + .cbox_label {
@@ -1817,15 +1263,9 @@ input.cbox_input:checked + .cbox_label {
 
 .hor_formbox {
   border: 0.0625rem solid #e0e0e5;
-<<<<<<< Updated upstream
-  border-radius: 8px;
-  display: flex;
-  height: 44px;
-=======
   border-radius: 0.5rem;
   display: flex;
   height: 2.75rem;
->>>>>>> Stashed changes
   box-sizing: border-box;
   align-items: center;
 }
@@ -1833,22 +1273,13 @@ input.cbox_input:checked + .cbox_label {
 input.hor_forminput {
   flex: 1;
   border: 0;
-<<<<<<< Updated upstream
-  height: 42px;
-=======
   height: 2.625rem;
->>>>>>> Stashed changes
   line-height: 1;
   box-sizing: border-box;
   width: 100%;
   background: none;
-<<<<<<< Updated upstream
-  font-size: 14px;
-  padding: 0 20px;
-=======
   font-size: 0.875rem;
   padding: 0 1.25rem;
->>>>>>> Stashed changes
   font-weight: bold;
 }
 
@@ -1881,26 +1312,15 @@ input.hor_forminput::input-placeholder {
   flex: 0;
   display: inline-block;
   white-space: nowrap;
-<<<<<<< Updated upstream
-  font-size: 14px;
-  color: #838289;
-  font-weight: bold;
-  padding: 0 20px;
-=======
   font-size: 0.875rem;
   color: #838289;
   font-weight: bold;
   padding: 0 1.25rem;
->>>>>>> Stashed changes
   line-height: 1;
 }
 
 .linux .hor_formunit {
-<<<<<<< Updated upstream
-  padding: 3px 20px 0;
-=======
   padding: 0.1875rem 1.25rem 0;
->>>>>>> Stashed changes
 }
 
 .select_date_item.active .input_date_label,
@@ -1921,35 +1341,21 @@ input.hor_forminput::input-placeholder {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-<<<<<<< Updated upstream
-  border-radius: 8px;
-=======
   border-radius: 0.5rem;
->>>>>>> Stashed changes
   border: 0.0625rem solid #e0e0e5;
 }
 
 .select_date_item:after {
   display: block;
   content: "";
-<<<<<<< Updated upstream
-  width: 6px;
-  height: 6px;
-=======
   width: 0.375rem;
   height: 0.375rem;
->>>>>>> Stashed changes
   border-right: 2px solid #838289;
   border-bottom: 2px solid #838289;
   position: absolute;
   top: 50%;
-<<<<<<< Updated upstream
-  right: 20px;
-  margin-top: -5px;
-=======
   right: 1.25rem;
   margin-top: -0.3125rem;
->>>>>>> Stashed changes
   transform: translateZ(0);
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -1965,16 +1371,10 @@ input.input_date {
   opacity: 0;
   color: #111;
   font-weight: bold;
-<<<<<<< Updated upstream
-  font-size: 14px;
-  height: 42px;
-  padding: 0 40px 0 20px;
-=======
   font-size: 0.875rem;
   z-index: 5;
   height: 2.625rem;
   padding: 0 2.5rem 0 1.25rem;
->>>>>>> Stashed changes
   -webkit-appearance: none;
   appearance: none;
   -moz-appearance: none;
@@ -1991,11 +1391,7 @@ input.input_date::-webkit-calendar-picker-indicator {
 .input_date_label {
   color: #c5c5d0;
   font-weight: normal;
-<<<<<<< Updated upstream
-  font-size: 14px;
-=======
   font-size: 0.875rem;
->>>>>>> Stashed changes
   position: absolute;
   top: 0;
   left: 0;
@@ -2004,40 +1400,24 @@ input.input_date::-webkit-calendar-picker-indicator {
   display: flex;
   align-items: center;
   box-sizing: border-box;
-<<<<<<< Updated upstream
-  padding: 0 20px;
-=======
   padding: 0 1.25rem;
->>>>>>> Stashed changes
   line-height: 1;
 }
 
 .add_formlow {
-<<<<<<< Updated upstream
-  margin-top: 23px;
-=======
   margin-top: 1.4375rem;
->>>>>>> Stashed changes
 }
 
 .ico_formitem_w {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-<<<<<<< Updated upstream
-  margin: 0 -12px -20px;
-=======
   margin: 0 -0.75rem -1.25rem;
->>>>>>> Stashed changes
 }
 
 .ico_formitem {
   flex: 0 0 25%;
-<<<<<<< Updated upstream
-  padding: 0 12px 20px;
-=======
   padding: 0 0.75rem 1.25rem;
->>>>>>> Stashed changes
   box-sizing: border-box;
 }
 
@@ -2057,19 +1437,11 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .ico_formlabel_in {
-<<<<<<< Updated upstream
-  font-size: 13px;
-  color: #838289;
-  display: block;
-  font-weight: bold;
-  margin: 10px -12px 0;
-=======
   font-size: 0.8125rem;
   color: #838289;
   display: block;
   font-weight: bold;
   margin: 0.625rem -0.75rem 0;
->>>>>>> Stashed changes
 }
 
 .ico_formlabel.ico_cir01:before {
@@ -2114,23 +1486,12 @@ input.input_date::-webkit-calendar-picker-indicator {
 
 /* form2 */
 .page_fxsection {
-<<<<<<< Updated upstream
-  min-height: calc(100vh - 55px);
-=======
   min-height: calc(100vh - 3.4375rem);
->>>>>>> Stashed changes
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-<<<<<<< Updated upstream
-.pfx_bottom {
-  margin-top: 1.875rem;
-}
-
-=======
->>>>>>> Stashed changes
 .pfx_copy {
   text-align: center;
   padding-top: 2.0625rem;
@@ -2195,11 +1556,7 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .btn_smquadbox {
-<<<<<<< Updated upstream
-  font-size: 13px;
-=======
   font-size: 0.8125rem;
->>>>>>> Stashed changes
   color: #4144f2;
   border: 1px solid #4144f2;
   border-radius: 0.5rem;
@@ -2224,22 +1581,14 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .pnum_key.define_num {
-<<<<<<< Updated upstream
-  font-size: 22px;
-=======
   font-size: 1.375rem;
->>>>>>> Stashed changes
   color: #111111;
   font-family: "NEXON Lv2 Gothic Bold";
   line-height: 1;
 }
 
 .pnum_key.define_text {
-<<<<<<< Updated upstream
-  font-size: 16px;
-=======
   font-size: 1rem;
->>>>>>> Stashed changes
   color: #111111;
   font-family: "NEXON Lv2 Gothic Bold";
   line-height: 1;
@@ -2252,9 +1601,6 @@ input.input_date::-webkit-calendar-picker-indicator {
 
 .pnum_key.define_ico.ico_back {
   background-image: url("../images/btn_backdel.png");
-<<<<<<< Updated upstream
-  background-size: 40px auto;
-=======
   background-size: 2.5rem auto;
 }
 
@@ -2291,45 +1637,29 @@ input.input_date::-webkit-calendar-picker-indicator {
   font-size: 0.8125rem;
   color: #838289;
   margin-top: 0.125rem;
->>>>>>> Stashed changes
 }
 
 /* design */
 .ico_column_w {
   text-align: center;
-<<<<<<< Updated upstream
-  margin-top: 120px;
-}
-.ico_column_w.type2 {
-  margin-top: 110px;
-=======
   margin-top: 7.5rem;
 }
 .ico_column_w.type2 {
   margin-top: 6.875rem;
->>>>>>> Stashed changes
 }
 
 .ico_obj_w {
   margin: 0 auto;
 }
 .ico_obj_w.ico_bell {
-<<<<<<< Updated upstream
-  max-width: 140px;
-=======
   max-width: 8.75rem;
->>>>>>> Stashed changes
 }
 .ico_obj_w.ico_bell .ico_obj {
   background-image: url("../images/obj_bell_notice.png");
   padding-bottom: 86.4285714286%;
 }
 .ico_obj_w.ico_phone {
-<<<<<<< Updated upstream
-  max-width: 120px;
-=======
   max-width: 7.5rem;
->>>>>>> Stashed changes
 }
 .ico_obj_w.ico_phone .ico_obj {
   background-image: url("../images/bio_obj.png");
@@ -2344,17 +1674,10 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .ico_copy_w {
-<<<<<<< Updated upstream
-  margin-top: 40px;
-}
-.ico_copy_w.type2 {
-  margin-top: 34px;
-=======
   margin-top: 2.5rem;
 }
 .ico_copy_w.type2 {
   margin-top: 2.125rem;
->>>>>>> Stashed changes
 }
 
 .ico_copyonly {
@@ -2370,34 +1693,11 @@ input.input_date::-webkit-calendar-picker-indicator {
 
 .ico_copy01 {
   color: #111;
-<<<<<<< Updated upstream
-  font-size: 24px;
-=======
   font-size: 1.5rem;
->>>>>>> Stashed changes
   font-family: "NEXON Lv2 Gothic Bold";
 }
 
 .ico_copy02 {
-<<<<<<< Updated upstream
-  margin-top: 15px;
-  font-size: 13px;
-  line-height: 1.5;
-  color: #838289;
-  margin-top: 20px;
-}
-
-.pmid_sigcopy {
-  font-size: 12px;
-  color: #838289;
-  text-align: center;
-  line-height: 1.5;
-  margin: 0 24px 24px;
-}
-
-.nhis_vlist > li {
-  margin-bottom: 16px;
-=======
   margin-top: 0.9375rem;
   font-size: 0.8125rem;
   line-height: 1.5;
@@ -2415,7 +1715,6 @@ input.input_date::-webkit-calendar-picker-indicator {
 
 .nhis_vlist > li {
   margin-bottom: 1rem;
->>>>>>> Stashed changes
 }
 
 .nhis_vlist > li:last-of-type {
@@ -2425,19 +1724,6 @@ input.input_date::-webkit-calendar-picker-indicator {
 .nhis_vitem {
   background: #fff;
   position: relative;
-<<<<<<< Updated upstream
-  padding: 24px 20px;
-  border-radius: 16px;
-  display: flex;
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.04);
-}
-
-.nhis_ico {
-  flex: 0 0 36px;
-  display: block;
-  width: 36px;
-  height: 36px;
-=======
   padding: 1.5rem 1.25rem;
   border-radius: 1rem;
   display: flex;
@@ -2449,7 +1735,6 @@ input.input_date::-webkit-calendar-picker-indicator {
   display: block;
   width: 2.25rem;
   height: 2.25rem;
->>>>>>> Stashed changes
   background: #4144f2 url("../images/ico_ncir01.png") no-repeat 0 0/100% auto;
   border-radius: 100%;
 }
@@ -2463,84 +1748,49 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .nhis_spec_w {
-<<<<<<< Updated upstream
-  margin: 0 0 0 12px;
-=======
   margin: 0 0 0 0.75rem;
->>>>>>> Stashed changes
   color: #111111;
 }
 
 .nhis_spec01 {
-<<<<<<< Updated upstream
-  font-size: 13px;
-=======
   font-size: 0.8125rem;
->>>>>>> Stashed changes
   font-weight: bold;
 }
 
 .nhis_spec02 {
-<<<<<<< Updated upstream
-  font-size: 12px;
-  line-height: 1.5;
-  margin-top: 5px;
-=======
   font-size: 0.75rem;
   line-height: 1.5;
   margin-top: 0.3125rem;
->>>>>>> Stashed changes
 }
 
 .nhis_kind {
   display: inline-block;
   color: #4144f2;
-<<<<<<< Updated upstream
-  margin-right: 7px;
-=======
   margin-right: 0.4375rem;
->>>>>>> Stashed changes
 }
 
 .btn_nhisclose {
   display: block;
-<<<<<<< Updated upstream
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-=======
   width: 1.25rem;
   height: 1.25rem;
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
->>>>>>> Stashed changes
   font-size: 0;
   line-height: 0;
 }
 
 .btn_nhisclose:before,
 .btn_nhisclose:after {
-<<<<<<< Updated upstream
-  width: 10px;
-  height: 2px;
-=======
   width: 0.625rem;
   height: 0.125rem;
->>>>>>> Stashed changes
   display: block;
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   background: #c5c5d0;
-<<<<<<< Updated upstream
-  margin: -1px 0 0 -5px;
-=======
   margin: -0.0625rem 0 0 -0.3125rem;
->>>>>>> Stashed changes
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -2560,18 +1810,6 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .chart_wbox {
-<<<<<<< Updated upstream
-  border-radius: 16px;
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.04);
-  background-color: #fff;
-  position: relative;
-  overflow: hidden;
-  padding: 30px;
-}
-
-.chart_vbox {
-  max-width: 170px;
-=======
   border-radius: 1rem;
   box-shadow: 0 0.1875rem 0.5rem 0 rgba(0, 0, 0, 0.04);
   background-color: #fff;
@@ -2582,7 +1820,6 @@ input.input_date::-webkit-calendar-picker-indicator {
 
 .chart_vbox {
   max-width: 10.625rem;
->>>>>>> Stashed changes
   margin: 0 auto;
   position: relative;
 }
@@ -2606,31 +1843,18 @@ input.input_date::-webkit-calendar-picker-indicator {
   height: 100%;
   flex-direction: column;
   box-sizing: border-box;
-<<<<<<< Updated upstream
-  padding-top: 10px;
-=======
   padding-top: 0.625rem;
->>>>>>> Stashed changes
 }
 
 .chart_vspec_label {
   color: #000;
-<<<<<<< Updated upstream
-  font-size: 12px;
-  margin-bottom: 7px;
-=======
   font-size: 0.75rem;
   margin-bottom: 0.4375rem;
->>>>>>> Stashed changes
 }
 
 .chart_vspec_value_w {
   line-height: 1;
-<<<<<<< Updated upstream
-  font-size: 24px;
-=======
   font-size: 1.5rem;
->>>>>>> Stashed changes
   letter-spacing: -0.0625rem;
   color: #000;
 }
@@ -2647,11 +1871,7 @@ input.input_date::-webkit-calendar-picker-indicator {
 .chart_else_hlist {
   display: flex;
   text-align: center;
-<<<<<<< Updated upstream
-  margin-top: 26px;
-=======
   margin-top: 1.625rem;
->>>>>>> Stashed changes
 }
 
 .chart_else_hlist > li {
@@ -2664,11 +1884,7 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .chart_else_value_w {
-<<<<<<< Updated upstream
-  font-size: 22px;
-=======
   font-size: 1.375rem;
->>>>>>> Stashed changes
   line-height: 1;
   color: #111;
 }
@@ -2682,20 +1898,6 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .chart_else_label {
-<<<<<<< Updated upstream
-  font-size: 13px;
-  line-height: 1;
-  color: #838289;
-  margin-top: 10px;
-}
-
-.btn_nposquad_w {
-  margin-top: 40px;
-}
-
-.page_guide_tit {
-  font-size: 14px;
-=======
   font-size: 0.8125rem;
   line-height: 1;
   color: #838289;
@@ -2708,54 +1910,38 @@ input.input_date::-webkit-calendar-picker-indicator {
 
 .page_guide_tit {
   font-size: 0.875rem;
->>>>>>> Stashed changes
   color: #111;
   line-height: 1;
   font-weight: bold;
 }
 
 .page_guide_cont {
-<<<<<<< Updated upstream
-  margin-top: 20px;
-}
-
-.vdash_list {
-  font-size: 11px;
-=======
   margin-top: 1.25rem;
 }
 
 .vdash_list {
   font-size: 0.6875rem;
->>>>>>> Stashed changes
   line-height: 1.5;
   color: #838289;
 }
 
 .vdash_list > li {
   position: relative;
-<<<<<<< Updated upstream
-  padding-left: 10px;
-  margin-bottom: 15px;
-=======
   padding-left: 0.625rem;
   margin-bottom: 0.9375rem;
->>>>>>> Stashed changes
 }
 
 .vdash_list > li:before {
   display: block;
   content: "-";
   position: absolute;
-<<<<<<< Updated upstream
-  top: 2px;
-  left: 0;
-  font-size: 10px;
-=======
-  top: 0.125rem;
+  top: 0;
   left: 0;
   font-size: 0.625rem;
->>>>>>> Stashed changes
+}
+
+.win .vdash_list > li:before {
+  top: 0.125rem;
 }
 
 .vdash_list > li:last-of-type {
@@ -2765,26 +1951,11 @@ input.input_date::-webkit-calendar-picker-indicator {
 .btn_bquadbox {
   display: block;
   width: 100%;
-<<<<<<< Updated upstream
-  padding: 15px;
-=======
   padding: 0.9375rem;
->>>>>>> Stashed changes
   box-sizing: border-box;
   text-align: center;
   color: #fff;
   background: #4144f2;
-<<<<<<< Updated upstream
-  border-radius: 12px 12px 0 0;
-}
-
-.bquadbox_in {
-  font-size: 18px;
-  color: #fff;
-  line-height: 1;
-  font-family: "NEXON Lv2 Gothic Bold";
-  padding-right: 20px;
-=======
   border-radius: 0.75rem 0.75rem 0 0;
 }
 
@@ -2794,7 +1965,6 @@ input.input_date::-webkit-calendar-picker-indicator {
   line-height: 1;
   font-family: "NEXON Lv2 Gothic Bold";
   padding-right: 1.25rem;
->>>>>>> Stashed changes
   position: relative;
 }
 
@@ -2803,21 +1973,12 @@ input.input_date::-webkit-calendar-picker-indicator {
   content: "";
   display: block;
   content: "";
-<<<<<<< Updated upstream
-  width: 9px;
-  height: 9px;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-  position: absolute;
-  top: 3.5008px;
-=======
   width: 0.5625rem;
   height: 0.5625rem;
   border-right: 0.125rem solid #fff;
   border-bottom: 0.125rem solid #fff;
   position: absolute;
   top: 0.2188rem;
->>>>>>> Stashed changes
   right: 0;
   transform: translateZ(0);
   transform: rotate(-45deg);
@@ -2834,11 +1995,7 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .page_guide_vitem {
-<<<<<<< Updated upstream
-  margin-bottom: 40px;
-=======
   margin-bottom: 2.5rem;
->>>>>>> Stashed changes
 }
 
 .page_guide_vitem:last-of-type {
@@ -2846,21 +2003,13 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .vitem_list {
-<<<<<<< Updated upstream
-  font-size: 11px;
-=======
   font-size: 0.6875rem;
->>>>>>> Stashed changes
   line-height: 1.5;
   color: #838289;
 }
 
 .vitem_list > li {
-<<<<<<< Updated upstream
-  margin-bottom: 15px;
-=======
   margin-bottom: 0.9375rem;
->>>>>>> Stashed changes
 }
 
 .vitem_list > li:last-of-type {
@@ -2868,43 +2017,26 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .vdot_list {
-<<<<<<< Updated upstream
-  font-size: 11px;
-=======
   font-size: 0.6875rem;
->>>>>>> Stashed changes
   line-height: 1.5;
   color: #838289;
 }
 
 .vdot_list > li {
   position: relative;
-<<<<<<< Updated upstream
-  padding-left: 7px;
-  margin-bottom: 15px;
-=======
   padding-left: 0.4375rem;
   margin-bottom: 0.9375rem;
->>>>>>> Stashed changes
 }
 
 .vdot_list > li:before {
   display: block;
   content: "";
   position: absolute;
-<<<<<<< Updated upstream
-  top: 6px;
-  left: 0;
-  background: #838289;
-  width: 3px;
-  height: 3px;
-=======
   top: 0.375rem;
   left: 0;
   background: #838289;
   width: 0.1875rem;
   height: 0.1875rem;
->>>>>>> Stashed changes
   border-radius: 100%;
 }
 
@@ -2915,21 +2047,12 @@ input.input_date::-webkit-calendar-picker-indicator {
 .define_botguide {
   font-weight: bold;
   color: #47474b;
-<<<<<<< Updated upstream
-  margin-top: 43px;
-}
-
-.desbox_vitem {
-  padding: 32px 20px 32px;
-  border-bottom: 8px solid #ededf8;
-=======
   margin-top: 2.6875rem;
 }
 
 .desbox_vitem {
   padding: 2rem 1.25rem 2rem;
   border-bottom: 0.5rem solid #ededf8;
->>>>>>> Stashed changes
 }
 
 .desbox_vitem:first-of-type {
@@ -2941,19 +2064,11 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .des_siginner {
-<<<<<<< Updated upstream
-  background: url("../images/obj_optimum.png") no-repeat 100% 0/156px auto;
-}
-
-.desbox_sigtitle {
-  font-size: 26px;
-=======
   background: url("../images/obj_optimum.png") no-repeat 100% 0/9.75rem auto;
 }
 
 .desbox_sigtitle {
   font-size: 1.625rem;
->>>>>>> Stashed changes
   color: #111;
   line-height: 1;
   font-weight: bold;
@@ -2965,23 +2080,6 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .desbox_subcopy {
-<<<<<<< Updated upstream
-  font-size: 14px;
-  color: #111;
-  margin-top: 15px;
-}
-
-.des_intro_lk_zone {
-  margin-top: 40px;
-}
-
-.des_lk_guidetext {
-  font-size: 12px;
-  color: #838289;
-  line-height: 1;
-  position: relative;
-  padding-left: 11px;
-=======
   font-size: 0.875rem;
   color: #111;
   margin-top: 0.9375rem;
@@ -2997,41 +2095,21 @@ input.input_date::-webkit-calendar-picker-indicator {
   line-height: 1;
   position: relative;
   padding-left: 0.6875rem;
->>>>>>> Stashed changes
 }
 
 .des_lk_guidetext:before {
   display: block;
   content: "";
-<<<<<<< Updated upstream
-  width: 6px;
-  height: 6px;
-  background-color: #fc5e18;
-  border-radius: 100%;
-  position: absolute;
-  top: 2px;
-=======
   width: 0.375rem;
   height: 0.375rem;
   background-color: #fc5e18;
   border-radius: 100%;
   position: absolute;
-  top: 0.125rem;
->>>>>>> Stashed changes
+  top: 0.1875rem;
   left: 0;
 }
 
 .des_intro_vitem_w {
-<<<<<<< Updated upstream
-  margin-top: 18px;
-}
-
-.des_intro_vitem {
-  border-radius: 16px;
-  padding: 17px 24px;
-  margin-bottom: 0.75rem;
-  background: #fff url("../images/ico_optinum_01.png") no-repeat 100% 50%/97px auto;
-=======
   margin-top: 1.125rem;
 }
 
@@ -3040,7 +2118,7 @@ input.input_date::-webkit-calendar-picker-indicator {
   padding: 1.0625rem 1.5rem;
   margin-bottom: 0.75rem;
   background: #fff url("../images/ico_optinum_01.png") no-repeat 100% 50%/6.0625rem auto;
->>>>>>> Stashed changes
+  border: 1px solid #f5f5f7;
 }
 
 .des_intro_vitem.ico_type2 {
@@ -3053,11 +2131,7 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .des_intro_vlabel {
-<<<<<<< Updated upstream
-  font-size: 14px;
-=======
   font-size: 0.875rem;
->>>>>>> Stashed changes
   color: #111;
   line-height: 1;
   font-weight: bold;
@@ -3065,19 +2139,11 @@ input.input_date::-webkit-calendar-picker-indicator {
 
 .des_intro_vdata {
   display: flex;
-<<<<<<< Updated upstream
-  font-size: 24px;
-  color: #4144f2;
-  line-height: 1;
-  align-items: center;
-  margin-top: 10px;
-=======
   font-size: 1.5rem;
   color: #4144f2;
   line-height: 1;
   align-items: center;
   margin-top: 0.625rem;
->>>>>>> Stashed changes
 }
 
 .des_intro_value {
@@ -3087,11 +2153,7 @@ input.input_date::-webkit-calendar-picker-indicator {
 
 .des_intro_unit {
   display: inline-block;
-<<<<<<< Updated upstream
-  margin-left: 5px;
-=======
   margin-left: 0.3125rem;
->>>>>>> Stashed changes
 }
 
 .win .des_intro_value {
@@ -3100,29 +2162,17 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .desbox_vtitle {
-<<<<<<< Updated upstream
-  font-size: 16px;
-=======
   font-size: 1rem;
->>>>>>> Stashed changes
   color: #111111;
   font-family: "NEXON Lv2 Gothic Bold";
 }
 
 .desbox_vcitem_w {
-<<<<<<< Updated upstream
-  margin-top: 24px;
-}
-
-.desbox_vcitem {
-  margin-bottom: 35px;
-=======
   margin-top: 1.5rem;
 }
 
 .desbox_vcitem {
   margin-bottom: 2.1875rem;
->>>>>>> Stashed changes
 }
 
 .desbox_vcitem:last-of-type {
@@ -3137,43 +2187,22 @@ input.input_date::-webkit-calendar-picker-indicator {
 }
 
 .desbox_vcont {
-<<<<<<< Updated upstream
-  margin-top: 16px;
-=======
   margin-top: 1rem;
->>>>>>> Stashed changes
 }
 
 .imgthumlogo_flist {
   display: flex;
   flex-wrap: wrap;
-<<<<<<< Updated upstream
-  margin-top: -12px;
-=======
   margin-top: -0.75rem;
->>>>>>> Stashed changes
 }
 
 .imgthumlogo_flist > li {
   flex: 0 0 50%;
-<<<<<<< Updated upstream
-  margin-top: 12px;
-=======
   margin-top: 0.75rem;
->>>>>>> Stashed changes
 }
 
 .imgthumlogo_fitem {
   display: flex;
-<<<<<<< Updated upstream
-  padding-right: 10px;
-}
-
-.imgthumlogo {
-  flex: 0 0 24px;
-  width: 24px;
-  height: 24px;
-=======
   padding-right: 0.625rem;
 }
 
@@ -3181,7 +2210,6 @@ input.input_date::-webkit-calendar-picker-indicator {
   flex: 0 0 1.5rem;
   width: 1.5rem;
   height: 1.5rem;
->>>>>>> Stashed changes
 }
 
 .imgthumlogo > img {
@@ -3196,16 +2224,754 @@ input.input_date::-webkit-calendar-picker-indicator {
 
 .imgthumlogo_text {
   flex: 1;
-<<<<<<< Updated upstream
-  font-size: 12px;
-  color: #111;
-  line-height: 1.3;
-  padding: 5px 0 0 8px;
-=======
   font-size: 0.75rem;
   color: #111;
   line-height: 1.3;
   padding: 0.3125rem 0 0 0.5rem;
->>>>>>> Stashed changes
+}
+
+.pagetop_sigzone {
+  background: #4144f2;
+  border-radius: 0 0 0.875rem 0.875rem;
+  padding: 2.1875rem 1.5rem 1.75rem;
+}
+
+.prof_fxwrap {
+  display: flex;
+}
+
+.prof_thum {
+  flex: 0 0 3.9375rem;
+  width: 3.9375rem;
+  height: 3.9375rem;
+  border-radius: 100%;
+  background: #fff url("../images/no_men.png") no-repeat 50% 50%/100% auto;
+}
+
+.prof_text_w {
+  flex: 1;
+  margin-left: 1.25rem;
+  line-height: 0;
+  padding-top: 0.3125rem;
+}
+
+.prof_text_sub {
+  font-size: 1.375rem;
+  color: #fff;
+  margin-bottom: 0.625rem;
+  line-height: 1;
+}
+
+.prof_text_sub strong {
+  font-family: "NEXON Lv2 Gothic Bold";
+}
+
+.prof_text_sub:last-of-type {
+  margin-bottom: 0;
+}
+
+.btn_ptopelse_w {
+  margin-top: 1.625rem;
+}
+
+.btn_ptopelse_fxwrap {
+  display: flex;
+  margin: 0 -6px;
+}
+
+.btn_ptopelse {
+  flex: 1;
+  border: 1px solid #c6c7ff;
+  border-radius: 1.875rem;
+  line-height: 1;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0 6px;
+}
+
+.page_totalmenu_z {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.page_total_item {
+  padding: 1.75rem 0;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 1.75rem;
+}
+
+.page_total_item:last-of-type {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.page_cate_low {
+  margin-bottom: 1.5625rem;
+}
+
+.page_cate {
+  font-size: 0.8125rem;
+  color: #c5c5d0;
+  font-weight: bold;
+}
+
+.ptotal_menu_vlist > li {
+  margin-bottom: 1.5625rem;
+}
+
+.ptotal_menu_vlist > li:last-of-type {
+  margin-bottom: 0;
+}
+
+.ptotal_menu {
+  font-size: 1rem;
+  color: #111;
+  display: block;
+  position: relative;
+  font-weight: bold;
+}
+
+.ptotal_menu:after {
+  display: block;
+  content: "";
+  border-right: 2px solid #e0e5e3;
+  border-bottom: 2px solid #e0e5e3;
+  position: absolute;
+  top: 0.4375rem;
+  right: 0.1875rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  transform: translateZ(0);
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.pbotmenu_hlist_w {
+  background: #fff;
+  box-shadow: 0 0.1875rem 0.5rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.pbotmenu_hlist {
+  display: flex;
+  height: 3.375rem;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.pbotmenu_hlist > li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pbotmenu {
+  display: inline-block;
+}
+
+.pbotmenu:before {
+  background: url("../images/ico_home.png") no-repeat 0 0/100% auto;
+  display: block;
+  content: "";
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.pbotmenu_in {
+  font-size: 0.625rem;
+  color: #838289;
+  line-height: 1;
+  display: block;
+  margin-top: 0.1875rem;
+}
+
+.pbotmenu.ico_loan:before {
+  background-image: url("../images/ico_lend.png");
+}
+
+.pbotmenu.ico_total:before {
+  background-image: url("../images/ico_total.png");
+}
+
+.pbotmenu.active:before {
+  background-position: 0 100%;
+}
+
+.pbotmenu.active .pbotmenu_in {
+  color: #111111;
+  font-weight: bold;
+}
+
+.pmember_visual {
+  display: flex;
+  align-items: center;
+}
+
+.pmember_copy_w {
+  flex: 0;
+  white-space: nowrap;
+  padding: 0 2.5rem 0 1.5rem;
+}
+
+.pmember_img_w {
+  flex: 1;
+}
+
+.pmember_img_w > img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.pmember_copy {
+  font-size: 1rem;
+  color: #111111;
+  font-weight: bold;
+}
+
+.pmember_sigtext {
+  font-size: 1.625rem;
+  color: #111;
+  line-height: 1.3;
+  margin-top: 0.3125rem;
+}
+
+.pmember_sigtext strong {
+  font-family: "NEXON Lv2 Gothic Bold";
+}
+
+.btn_pfield_low {
+  padding: 0 1.5rem;
+  margin-top: 1.75rem;
+}
+
+.btn_pfield_w {
+  display: flex;
+  text-align: center;
+  margin: 0 -0.375rem;
+}
+
+.btn_pfield {
+  flex: 1;
+  font-size: 0.8125rem;
+  color: #4144f2;
+  border: 1px solid #4144f2;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  padding: 0.625rem;
+  line-height: 1;
+  margin: 0 0.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_pfield_w .btn_togtext {
+  flex: 1;
+}
+
+.pfield_in {
+  display: flex;
+  align-items: center;
+}
+
+.pfield_in:before {
+  display: block;
+  content: "";
+  width: 0.875rem;
+  height: 0.8125rem;
+  background: url("../images/ico_filter.png") no-repeat 0 0/100% auto;
+  flex: 0 0 0.875rem;
+  margin-right: 0.625rem;
+}
+
+.btn_togtext {
+  border: 1px solid #4144f2;
+  border-radius: 0.5rem;
+  padding: 0.625rem;
+  line-height: 1;
+  display: block;
+  line-height: 1;
+}
+
+.btn_togtext_in {
+  font-size: 0.8125rem;
+  color: #4144f2;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_togtext_in:after {
+  display: block;
+  content: "";
+  width: 0.625rem;
+  height: 0.375rem;
+  flex: 0 0 0.625rem;
+  vertical-align: middle;
+  margin-left: 0.5625rem;
+  background: url("../images/ico_toggle.png") no-repeat 0 0/100% auto;
+}
+
+.wbox_vdata_w {
+  margin: 1.25rem 1.5rem 3.125rem;
+}
+
+.wbox_vdata {
+  padding: 1.25rem 3.25rem 1.25rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.1875rem 0.5rem 0 rgba(0, 0, 0, 0.04);
+  background-color: #fff;
+  margin-bottom: 0.75rem;
+  display: flex;
+}
+
+.wbox_vdata:last-of-type {
+  margin-bottom: 0;
+}
+
+.wbox_vthum {
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 2rem;
+}
+
+.wbox_vthum > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.wbox_vspec_w {
+  flex: 1;
+  margin-left: 0.875rem;
+}
+
+.wbox_vspec.low02 {
+  margin-top: 0.625rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vspec_data_name {
+  font-size: 0.875rem;
+  color: #111;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.vspec_data_sub {
+  font-size: 0.8125rem;
+  color: #838289;
+  margin-top: 0.3125rem;
+}
+
+.wbox_vhcell {
+  margin: 0 2.5rem 0 0;
+}
+
+.wbox_vhcell:last-of-type {
+  margin-right: 0;
+}
+
+.wvhc_lab {
+  font-size: 0.75rem;
+  color: #838289;
+  display: inline-block;
+  line-height: 1;
+}
+
+.wvhc_datavalue {
+  font-size: 1rem;
+  color: #111;
+  font-family: "GmarketSansBold";
+}
+
+.wvhc_dataunit {
+  font-size: 1rem;
+  color: #111;
+  font-weight: bold;
+  margin-left: 0.3125rem;
+}
+
+.vspec_subcopy {
+  font-size: 11px;
+  color: #c5c5d0;
+  margin-top: 0.9375rem;
+  line-height: 1;
+}
+
+.vfilter_item_w {
+  padding: 0 1.5rem;
+}
+
+.vfilter_item {
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid #efefef;
+}
+
+.vfilter_item:last-of-type {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.vfilter_tit {
+  color: #838289;
+  line-height: 1;
+  display: block;
+  font-size: 0.75rem;
+}
+
+.vfilter_cont {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.3125rem;
+}
+
+.btn_vfilterbox {
+  border: 1px solid #e0e5e3;
+  border-radius: 0.5rem;
+  flex: 0 0 calc(25% - 0.625rem);
+  font-size: 0.8125rem;
+  color: #111111;
+  padding: 0.8125rem 0 0.75rem;
+  margin: 0.625rem 0.3125rem 0 0.3125rem;
+  font-weight: bold;
+  min-width: 4.375rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.btn_vfilterbox.active {
+  color: #4144f2;
+  font-family: "NEXON Lv2 Gothic Bold";
+  border-color: #4144f2;
+}
+
+.search_sigitem_w {
+  background: #4144f2;
+  padding: 2rem 1.5rem;
+  border-radius: 0 0 0.875rem 0.875rem;
+  text-align: center;
+}
+
+.btn_search_sigitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5rem;
+  box-shadow: 0 0.1875rem 0.5rem 0 rgba(0, 0, 0, 0.04);
+  background-color: #ebeeff;
+  padding: 1.4375rem 0 1.25rem;
+}
+
+.search_sigitem_in {
+  color: #4144f2;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-family: "NEXON Lv2 Gothic Bold";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_sigitem_in:after {
+  display: block;
+  content: "";
+  flex: 0 0 1.4375rem;
+  width: 1.4375rem;
+  height: 1.4375rem;
+  margin-left: 0.625rem;
+  background: url("../images/ico_csearch2.png") no-repeat 0 0/100% auto;
+}
+
+.sort_textbox_hlist_w {
+  padding: 1.5625rem 1.5rem 1.0625rem;
+  border-bottom: 1px solid #efefef;
+  position: relative;
+  overflow: hidden;
+  overflow-x: auto;
+  display: flex;
+  align-items: center;
+}
+
+.sort_textbox_hlist_w::-webkit-scrollbar {
+  display: none;
+}
+
+.sort_textbox_hlist_w::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.sort_textbox_hlist_w::-webkit-scrollbar-track {
+  display: none;
+}
+
+.sort_textbox_hlist {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.sort_textbox_hlist > li {
+  margin: 0 0.625rem 0 0;
+  flex: 0;
+}
+
+.sort_textbox_hlist > li:last-of-type {
+  margin: 0;
+}
+
+.sort_textbox {
+  display: inline-block;
+  line-height: 1;
+  font-size: 14px;
+  white-space: nowrap;
+  color: #838289;
+  font-weight: bold;
+  border: 1px solid #e0e0e5;
+  border-radius: 6.25rem;
+  padding: 0.5625rem 0.8125rem 0.5rem;
+}
+
+.sort_textbox.active {
+  color: #4144f2;
+  border-color: #4144f2;
+}
+
+.botpos_moreitem_low {
+  position: relative;
+  height: 0;
+}
+
+.btn_botmore_item {
+  z-index: 120;
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 100%;
+  background: #4144f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botmore_ico {
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  transition: 0.4s;
+}
+
+.botmore_ico:before,
+.botmore_ico:after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin: -1px 0 0 0;
+}
+
+.botmore_ico:after {
+  transform: translateZ(0);
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+.btn_botmore_item.active .botmore_ico {
+  transform: translateZ(0);
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.moreitem_layerbox_w {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.moreitem_layerbox_w .bg_dim {
+  z-index: 10;
+}
+
+.moreitem_layerbox_w.active {
+  display: block;
+  z-index: 100;
+}
+
+.moreitem_layerbox {
+  z-index: 50;
+  background: #fff;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: 9.0625rem;
+  right: 1.25rem;
+  width: 12.5rem;
+  box-sizing: border-box;
+  padding: 0 1.25rem;
+  transform: translateX(calc(100% + 1.25rem));
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.moreitem_layerbox_w.active .moreitem_layerbox {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.moreitem_layerbox_w.active .bg_dim {
+  opacity: 0.6;
+}
+
+.moreitem_vlist > li {
+  border-bottom: 1px solid #efefef;
+}
+
+.moreitem_vlist > li:last-of-type {
+  border-bottom: 0;
+}
+
+.moreitem_vitem {
+  display: flex;
+  padding: 1.25rem 0 1.25rem 0.75rem;
+  align-items: center;
+}
+
+.moreitem_vitem:before {
+  display: block;
+  content: "";
+  width: 1.9375rem;
+  height: 1.9375rem;
+  flex: 0 0 1.9375rem;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 50% 50%;
+}
+
+.moreitem_vitem.ico_time:before {
+  background-image: url("../images/ico_quick_01.png");
+}
+
+.moreitem_vitem.ico_carcul:before {
+  background-image: url("../images/ico_quick_02.png");
+}
+
+.moreitem_vitem.ico_review:before {
+  background-image: url("../images/ico_quick_03.png");
+}
+
+.moreitem_vitem_in {
+  font-size: 14px;
+  color: #111111;
+  line-height: 1;
+  font-weight: bold;
+  flex: 1;
+  margin-left: 0.8125rem;
+}
+
+.swiper-pagination.main-paging {
+  position: static;
+  font-size: 0;
+  line-height: 0;
+}
+
+.swiper-pagination.main-paging .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #4144f2;
+}
+
+.opt_hitem_vlist > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.opt_hitem_vlist > li:last-of-type {
+  margin-bottom: 0;
+}
+
+.opt_hlab {
+  font-size: 14px;
+  color: #111;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.opt_hvalue {
+  font-size: 0;
+  line-height: 0;
+}
+
+.dcirm_label {
+  display: inline-block;
+  width: 3rem;
+  height: 1.8125rem;
+  border-radius: 1.875rem;
+  background: #c5c5d0;
+  position: relative;
+  transition: 0.4s;
+}
+
+.dcirm_label:before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0.1875rem;
+  left: 0.1875rem;
+  width: 1.4375rem;
+  height: 1.4375rem;
+  background: #fff;
+  border-radius: 100%;
+  transition: 0.4s;
+}
+
+input.dcirm {
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+
+input.dcirm:checked + .dcirm_label {
+  background: #4144f2;
+}
+
+input.dcirm:checked + .dcirm_label:before {
+  left: 1.375rem;
+}
+
+.bot_cguide_text {
+  font-size: 0.8125rem;
+  color: #838289;
+  margin-top: 1.875rem;
 }
 /*# sourceMappingURL=style.css.map */

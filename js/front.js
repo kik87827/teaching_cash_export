@@ -45,6 +45,12 @@ function botlayerCall(){
     var $btn_botpos_wrap = $(".btn_botpos_wrap");
     var $btn_botpos_wrap_height = $btn_botpos_wrap.outerHeight() || 0;
     var $has_botpos = $(".page_wrap.has_botpos");
+
+	if($btn_botpos_wrap.length){
+		$(".page_wrap").addClass("has_botpos");
+		$has_botpos = $(".page_wrap.has_botpos");
+	}
+
     $has_botpos.css({"padding-bottom" : "" });
     $has_botpos.css({"padding-bottom" : $btn_botpos_wrap_height});
 }
@@ -140,6 +146,7 @@ function formCommon(){
 	var $field_multi_form_input = $field_multi_d_field.children("input.form_input");
 	var $field_multi_reset = $field_multi_d_field.children(".btn_fieldreset");
 	var $select_date_item = $(".select_date_item");
+	var $datatoggle = $("[data-toggletext]");
 	// $form_input.each(function(){
 	// 	var $this = $(this);
 	// 	var $t_p = $this.parents(".form_field");
@@ -148,6 +155,27 @@ function formCommon(){
 	// 		$t_p.addClass("active");
 	// 	}
 	// });
+
+	$datatoggle.each(function(){
+		var $toggis = false;
+		var $this = $(this);
+		var $t_text = $this.text();
+		$this.attr("data-current",$t_text);
+
+		$(this).on("click",function(){
+			var $this = $(this);
+			var $this_t = $this.children(".btn_togtext_in");
+			var $t_toggle = $this.attr("data-toggletext");
+			var $t_current = $this.attr("data-current");
+
+			if($toggis){
+				$this_t.text($t_current);
+			}else{
+				$this_t.text($t_toggle);
+			}
+			$toggis = !$toggis; 
+		});
+	});
 
 	globalform.on("focusin keydown keypress focus",function(){
 		$btn_botpos_wrap.addClass("postype2");
@@ -225,18 +253,12 @@ function formCommon(){
 		$btn_target.addClass("active");
 		dimLayerHide({target : $t_p});
 	});
-<<<<<<< Updated upstream
-	$(document).on("focus focusin",".input_date",function(e){
-=======
 	$(document).on("change",".input_date",function(e){
->>>>>>> Stashed changes
 		e.preventDefault();
 		var $this = $(this);
 		var $this_p = $this.parents(".select_date_item");
 		$this_p.addClass("active");
 	});
-<<<<<<< Updated upstream
-=======
 	$(document).on("focusin focus",".input_date",function(e){
 		e.preventDefault();
 		var $this = $(this);
@@ -245,7 +267,6 @@ function formCommon(){
 			$this_p.addClass("active");
 		}
 	});
->>>>>>> Stashed changes
 	$(document).on("focusout",".input_date",function(e){
 		e.preventDefault();
 		var $this = $(this);
@@ -253,4 +274,41 @@ function formCommon(){
 		if($this[0].value.length>0){return;}
 		$this_p.removeClass("active");
 	});
+}
+
+/* 대출홈 */
+function quickItemFunc(){
+	$(function(){
+		var quickToggle =false;
+		var $moreitem_layerbox_w = $(".moreitem_layerbox_w");
+		$(".btn_botmore_item").on("click",function(e){
+			e.preventDefault();
+			$(this).toggleClass("active");
+
+			if(quickToggle){
+				actionHide();
+			}else{
+				actionShow();
+			}
+			quickToggle = !quickToggle;
+		});
+		$moreitem_layerbox_w.find(".bg_dim").on("click",function(e){
+			actionHide();
+			quickToggle = false;
+		});
+
+		function actionShow(){
+			$moreitem_layerbox_w.show();
+			setTimeout(function(){
+				$moreitem_layerbox_w.addClass("active");
+			},30);
+		}
+
+		function actionHide(){
+			$moreitem_layerbox_w.removeClass("active");
+			setTimeout(function(){
+				$moreitem_layerbox_w.hide();
+			},420);
+		}
+	})
 }
