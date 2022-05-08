@@ -3053,6 +3053,7 @@ input.input_date::-webkit-calendar-picker-indicator {
 
 .detail_vhvalue {
   display: flex;
+  align-items: center;
 }
 
 .detail_vhvalue .detail_vhitem {
