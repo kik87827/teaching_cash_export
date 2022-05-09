@@ -40,11 +40,36 @@ function commonResize(){
 	}).resize();
 }
 
+function tabFunc(){
+	var $d_tablist = $(".d_tablist");
+	var $dmid_tab = $(".dmid_tab");
+	$dmid_tab.on("click",function(e){
+		e.preventDefault();
+		var $t = $(this);
+		var $t_p = $t.parents(".d_tablist");
+		var $t_t_g = $($t_p.attr("data-targetgroup"));
+		var $t_t = $($t.attr("href"));
+		$t.siblings(".dmid_tab").not($t).removeClass("active");
+		$t.addClass("active");
+
+		if($t_t.length){
+			$t_t_g.children(".dmid_cont").hide();
+			$t_t.show();
+		}
+	});
+}
+
 
 function botlayerCall(){
     var $btn_botpos_wrap = $(".btn_botpos_wrap");
     var $btn_botpos_wrap_height = $btn_botpos_wrap.outerHeight() || 0;
     var $has_botpos = $(".page_wrap.has_botpos");
+
+	if($btn_botpos_wrap.length){
+		$(".page_wrap").addClass("has_botpos");
+		$has_botpos = $(".page_wrap.has_botpos");
+	}
+
     $has_botpos.css({"padding-bottom" : "" });
     $has_botpos.css({"padding-bottom" : $btn_botpos_wrap_height});
 }
@@ -133,13 +158,14 @@ function dimLayerHide(option){
 function formCommon(){
 	var globalform = $("input[type='text'],input[type='password'],input[type='number'],textarea");
 	var $btn_botpos_wrap = $(".btn_botpos_wrap");
-	var $btn_select_call = $(".btn_select_call");
+	var $btn_select_call = $(".d_select");
 	var $form_field = $(".form_field");
 	var $form_input = $("input.form_input");
 	var $field_multi_d_field = $(".field_multi_fxwrap.d_field");
 	var $field_multi_form_input = $field_multi_d_field.children("input.form_input");
 	var $field_multi_reset = $field_multi_d_field.children(".btn_fieldreset");
 	var $select_date_item = $(".select_date_item");
+	var $datatoggle = $("[data-toggletext]");
 	// $form_input.each(function(){
 	// 	var $this = $(this);
 	// 	var $t_p = $this.parents(".form_field");
@@ -148,6 +174,27 @@ function formCommon(){
 	// 		$t_p.addClass("active");
 	// 	}
 	// });
+
+	$datatoggle.each(function(){
+		var $toggis = false;
+		var $this = $(this);
+		var $t_text = $this.text();
+		$this.attr("data-current",$t_text);
+
+		$(this).on("click",function(){
+			var $this = $(this);
+			var $this_t = $this.children(".btn_togtext_in");
+			var $t_toggle = $this.attr("data-toggletext");
+			var $t_current = $this.attr("data-current");
+
+			if($toggis){
+				$this_t.text($t_current);
+			}else{
+				$this_t.text($t_toggle);
+			}
+			$toggis = !$toggis; 
+		});
+	});
 
 	globalform.on("focusin keydown keypress focus",function(){
 		$btn_botpos_wrap.addClass("postype2");
@@ -221,15 +268,23 @@ function formCommon(){
 		var $this_text = $this.text();
 		var $t_p = $this.parents(".dimlayer_z");
 		var $btn_target = $($t_p.attr("data-call"));
-		$btn_target.children(".btn_select_call_in").text($this_text);
+		$btn_target.children(".btn_select_call_in , .sonlytext_in").text($this_text);
 		$btn_target.addClass("active");
 		dimLayerHide({target : $t_p});
 	});
-	$(document).on("focus focusin",".input_date",function(e){
+	$(document).on("change",".input_date",function(e){
 		e.preventDefault();
 		var $this = $(this);
 		var $this_p = $this.parents(".select_date_item");
 		$this_p.addClass("active");
+	});
+	$(document).on("focusin focus",".input_date",function(e){
+		e.preventDefault();
+		var $this = $(this);
+		var $this_p = $this.parents(".select_date_item");
+		if($("html").hasClass("win")){
+			$this_p.addClass("active");
+		}
 	});
 	$(document).on("focusout",".input_date",function(e){
 		e.preventDefault();
@@ -238,4 +293,41 @@ function formCommon(){
 		if($this[0].value.length>0){return;}
 		$this_p.removeClass("active");
 	});
+}
+
+/* 대출홈 */
+function quickItemFunc(){
+	$(function(){
+		var quickToggle =false;
+		var $moreitem_layerbox_w = $(".moreitem_layerbox_w");
+		$(".btn_botmore_item").on("click",function(e){
+			e.preventDefault();
+			$(this).toggleClass("active");
+
+			if(quickToggle){
+				actionHide();
+			}else{
+				actionShow();
+			}
+			quickToggle = !quickToggle;
+		});
+		$moreitem_layerbox_w.find(".bg_dim").on("click",function(e){
+			actionHide();
+			quickToggle = false;
+		});
+
+		function actionShow(){
+			$moreitem_layerbox_w.show();
+			setTimeout(function(){
+				$moreitem_layerbox_w.addClass("active");
+			},30);
+		}
+
+		function actionHide(){
+			$moreitem_layerbox_w.removeClass("active");
+			setTimeout(function(){
+				$moreitem_layerbox_w.hide();
+			},420);
+		}
+	})
 }
